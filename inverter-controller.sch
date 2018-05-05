@@ -120,8 +120,8 @@ $EndSheet
 $Sheet
 S 1900 1200 700  400 
 U 5AEC7636
-F0 "input" 60
-F1 "input.sch" 60
+F0 "motor_current" 60
+F1 "motor_current.sch" 60
 F2 "I_A_SENSE" I R 2600 1300 60 
 F3 "I_B_SENSE" I R 2600 1400 60 
 F4 "I_C_SENSE" I R 2600 1500 60 
