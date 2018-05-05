@@ -204,4 +204,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 2200 2900 1200
 Connection ~ 2900 1200
+Text Notes 2800 750  0    60   ~ 0
+TODO(willjschmitt): Set VDC_OV_REF and VDC_UV_REF.
 $EndSCHEMATC

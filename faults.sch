@@ -123,4 +123,6 @@ Wire Wire Line
 	5950 2200 5950 2000
 Wire Wire Line
 	5950 2000 6050 2000
+Text Notes 6700 1350 0    60   ~ 0
+TODO(willjschmitt): Implement fault latching.
 $EndSCHEMATC

@@ -422,4 +422,6 @@ Text Notes 8350 1000 0    60   ~ 0
 IGBT Signalling
 Text Notes 4650 4350 0    60   ~ 0
 Hardware Fault Handling
+Text Notes 8150 4350 0    60   ~ 0
+TODO(willjschmitt): Add precharge relay.
 $EndSCHEMATC
