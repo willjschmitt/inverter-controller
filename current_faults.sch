@@ -1,0 +1,284 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:inverter-controller
+LIBS:inverter-controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1700 1400 0    60   Input ~ 0
+I_A
+Text HLabel 1700 2400 0    60   Input ~ 0
+I_B
+Text HLabel 1700 3400 0    60   Input ~ 0
+I_C
+$Comp
+L LMV393 U?
+U 1 1 5AF25F08
+P 2200 1500
+F 0 "U?" H 2350 1650 50  0000 C CNN
+F 1 "LMV393" H 2450 1350 50  0000 C CNN
+F 2 "" H 2200 1500 50  0001 C CNN
+F 3 "" H 2200 1500 50  0001 C CNN
+	1    2200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMV393 U?
+U 2 1 5AF25F4F
+P 2200 2500
+F 0 "U?" H 2350 2650 50  0000 C CNN
+F 1 "LMV393" H 2450 2350 50  0000 C CNN
+F 2 "" H 2200 2500 50  0001 C CNN
+F 3 "" H 2200 2500 50  0001 C CNN
+	2    2200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMV393 U?
+U 1 1 5AF25FB4
+P 2200 3500
+F 0 "U?" H 2350 3650 50  0000 C CNN
+F 1 "LMV393" H 2450 3350 50  0000 C CNN
+F 2 "" H 2200 3500 50  0001 C CNN
+F 3 "" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMV393 U?
+U 2 1 5AF26030
+P 2200 4500
+F 0 "U?" H 2350 4650 50  0000 C CNN
+F 1 "LMV393" H 2450 4350 50  0000 C CNN
+F 2 "" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4500 50  0001 C CNN
+	2    2200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 5AF2611D
+P 2100 2800
+F 0 "#PWR039" H 2100 2550 50  0001 C CNN
+F 1 "GND" H 2100 2650 50  0000 C CNN
+F 2 "" H 2100 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 5AF26150
+P 2100 1800
+F 0 "#PWR040" H 2100 1550 50  0001 C CNN
+F 1 "GND" H 2100 1650 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5AF261AC
+P 2100 3800
+F 0 "#PWR041" H 2100 3550 50  0001 C CNN
+F 1 "GND" H 2100 3650 50  0000 C CNN
+F 2 "" H 2100 3800 50  0001 C CNN
+F 3 "" H 2100 3800 50  0001 C CNN
+	1    2100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 5AF261C8
+P 2100 4800
+F 0 "#PWR042" H 2100 4550 50  0001 C CNN
+F 1 "GND" H 2100 4650 50  0000 C CNN
+F 2 "" H 2100 4800 50  0001 C CNN
+F 3 "" H 2100 4800 50  0001 C CNN
+	1    2100 4800
+	1    0    0    -1  
+$EndComp
+Text Label 1700 1600 2    60   ~ 0
+IOC_REF
+Wire Wire Line
+	1700 1400 1900 1400
+Wire Wire Line
+	1700 1600 1900 1600
+Wire Wire Line
+	1700 2400 1900 2400
+Text Label 1700 2600 2    60   ~ 0
+IOC_REF
+Text Label 1700 3600 2    60   ~ 0
+IOC_REF
+Wire Wire Line
+	1700 2600 1900 2600
+Wire Wire Line
+	1700 3400 1900 3400
+Wire Wire Line
+	1700 3600 1900 3600
+$Comp
+L 74LS32 U?
+U 1 1 5AF26A49
+P 3900 1950
+F 0 "U?" H 3900 2000 50  0000 C CNN
+F 1 "74LS32" H 3900 1900 50  0000 C CNN
+F 2 "" H 3900 1950 50  0001 C CNN
+F 3 "" H 3900 1950 50  0001 C CNN
+	1    3900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS32 U?
+U 2 1 5AF26AC6
+P 3900 2950
+F 0 "U?" H 3900 3000 50  0000 C CNN
+F 1 "74LS32" H 3900 2900 50  0000 C CNN
+F 2 "" H 3900 2950 50  0001 C CNN
+F 3 "" H 3900 2950 50  0001 C CNN
+	2    3900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS32 U?
+U 3 1 5AF26B35
+P 3900 3950
+F 0 "U?" H 3900 4000 50  0000 C CNN
+F 1 "74LS32" H 3900 3900 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	3    3900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS32 U?
+U 4 1 5AF26BA2
+P 3900 4950
+F 0 "U?" H 3900 5000 50  0000 C CNN
+F 1 "74LS32" H 3900 4900 50  0000 C CNN
+F 2 "" H 3900 4950 50  0001 C CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+	4    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR043
+U 1 1 5AF26F2F
+P 2100 1200
+F 0 "#PWR043" H 2100 1050 50  0001 C CNN
+F 1 "+5V" H 2100 1340 50  0000 C CNN
+F 2 "" H 2100 1200 50  0001 C CNN
+F 3 "" H 2100 1200 50  0001 C CNN
+	1    2100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR044
+U 1 1 5AF27223
+P 2100 2200
+F 0 "#PWR044" H 2100 2050 50  0001 C CNN
+F 1 "+5V" H 2100 2340 50  0000 C CNN
+F 2 "" H 2100 2200 50  0001 C CNN
+F 3 "" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR045
+U 1 1 5AF2736E
+P 2100 3200
+F 0 "#PWR045" H 2100 3050 50  0001 C CNN
+F 1 "+5V" H 2100 3340 50  0000 C CNN
+F 2 "" H 2100 3200 50  0001 C CNN
+F 3 "" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR046
+U 1 1 5AF27419
+P 2100 4200
+F 0 "#PWR046" H 2100 4050 50  0001 C CNN
+F 1 "+5V" H 2100 4340 50  0000 C CNN
+F 2 "" H 2100 4200 50  0001 C CNN
+F 3 "" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1850 2900 1850
+Wire Wire Line
+	2900 1850 2900 1500
+Wire Wire Line
+	2900 1500 2500 1500
+Wire Wire Line
+	2500 2500 2900 2500
+Wire Wire Line
+	2900 2500 2900 2050
+Wire Wire Line
+	2900 2050 3300 2050
+Wire Wire Line
+	4500 1950 4650 1950
+Wire Wire Line
+	4650 1950 4650 2650
+Wire Wire Line
+	4650 2650 3050 2650
+Wire Wire Line
+	3050 2650 3050 2850
+Wire Wire Line
+	3050 2850 3300 2850
+Wire Wire Line
+	4900 2950 4500 2950
+Wire Wire Line
+	3300 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 3500
+Wire Wire Line
+	2900 3500 2500 3500
+Text HLabel 4900 2950 2    60   Input ~ 0
+IOC_FAULT
+Text Notes 850  950  0    60   ~ 0
+TODO(willjschmitt): Set IOC_REF to reasonable value.
+$EndSCHEMATC
