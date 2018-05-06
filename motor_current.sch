@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 19
+Sheet 19 19
 Title ""
 Date ""
 Rev ""
@@ -70,7 +70,7 @@ F 3 "" H 2450 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1700 1900 0    60   ~ 0
-Current Sensor Connectors\n\nAssuming Current Transducer with:\n2.5V + k*I/In Behavior\n\n4th Pin is Vref, which is assumed\nstatic in this design
+Current Sensor Connectors\n\nAssuming Current Transducer with:\n2.5V + k*I/In Behavior
 $Comp
 L R R5
 U 1 1 5AEC79DA
@@ -226,4 +226,22 @@ Text HLabel 2450 2750 2    60   Input ~ 0
 I_B_SENSE
 Text HLabel 2450 3400 2    60   Input ~ 0
 I_C_SENSE
+Text HLabel 2450 2500 2    60   Input ~ 0
+I_A_0REF
+Wire Wire Line
+	2450 2500 2050 2500
+Wire Wire Line
+	2050 2500 2050 2400
+Text HLabel 2450 3150 2    60   Input ~ 0
+I_B_0REF
+Wire Wire Line
+	2450 3150 2050 3150
+Wire Wire Line
+	2050 3150 2050 3050
+Text HLabel 2450 3800 2    60   Input ~ 0
+I_C_0REF
+Wire Wire Line
+	2450 3800 2050 3800
+Wire Wire Line
+	2050 3800 2050 3700
 $EndSCHEMATC
