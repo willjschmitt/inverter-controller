@@ -48,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR037
+L GND #PWR39
 U 1 1 5AEE7C90
 P 5900 4050
-F 0 "#PWR037" H 5900 3800 50  0001 C CNN
+F 0 "#PWR39" H 5900 3800 50  0001 C CNN
 F 1 "GND" H 5900 3900 50  0000 C CNN
 F 2 "" H 5900 4050 50  0001 C CNN
 F 3 "" H 5900 4050 50  0001 C CNN
@@ -61,10 +61,10 @@ $EndComp
 Text Notes 5150 3650 0    60   ~ 0
 DC Voltage Sensor Connector\n\nAssuming Current Transducer with:\n2.5V + k*V/Vn Behavior\n\n4th Pin is Vref, which is assumed\nstatic in this design
 $Comp
-L Conn_01x04 J?
+L Conn_01x04 J9
 U 1 1 5AEE7C97
 P 5300 3950
-F 0 "J?" H 5300 4150 50  0000 C CNN
+F 0 "J9" H 5300 4150 50  0000 C CNN
 F 1 "VDC" H 5300 3650 50  0000 C CNN
 F 2 "" H 5300 3950 50  0001 C CNN
 F 3 "" H 5300 3950 50  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "" H 5300 3950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR038
+L +5V #PWR38
 U 1 1 5AEE7C9E
 P 5900 3950
-F 0 "#PWR038" H 5900 3800 50  0001 C CNN
+F 0 "#PWR38" H 5900 3800 50  0001 C CNN
 F 1 "+5V" H 5900 4090 50  0000 C CNN
 F 2 "" H 5900 3950 50  0001 C CNN
 F 3 "" H 5900 3950 50  0001 C CNN
