@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -444,4 +444,10 @@ Wire Wire Line
 	7600 2100 7600 4250
 Wire Wire Line
 	7600 4250 8800 4250
+$Sheet
+S 850  6800 800  650 
+U 5B0139C6
+F0 "power_supply" 60
+F1 "power_supply.sch" 60
+$EndSheet
 $EndSCHEMATC

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 11 19
 Title ""
 Date ""
 Rev ""
@@ -281,4 +281,6 @@ Text HLabel 4900 2950 2    60   Input ~ 0
 IOC_FAULT
 Text Notes 850  950  0    60   ~ 0
 TODO(willjschmitt): Set IOC_REF to reasonable value.
+Text Notes 850  800  0    60   ~ 0
+TODO(willjschmitt): Set negative direction IOC.
 $EndSCHEMATC
