@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 18
+Sheet 17 18
 Title ""
 Date ""
 Rev ""
@@ -47,12 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2150 1300 0    60   Input ~ 0
-KTY+
-Text HLabel 2150 1450 0    60   Input ~ 0
-KTY-
-Text HLabel 3150 1350 2    60   Input ~ 0
-OUT
-Text Notes 1850 1050 0    60   ~ 0
-TODO(willjschmitt): Implement amplifier.
+Text HLabel 1500 1100 0    60   Input ~ 0
+IN
+Text Notes 1750 1150 0    60   ~ 0
+TODO(willjschmitt): Implement relay control.
 $EndSCHEMATC

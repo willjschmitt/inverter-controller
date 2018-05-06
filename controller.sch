@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 18
 Title ""
 Date ""
 Rev ""
@@ -481,4 +481,8 @@ Text HLabel 1350 3600 0    60   Input ~ 0
 MOTOR_TEMP_A
 Text HLabel 1350 3700 0    60   Input ~ 0
 MOTOR_TEMP_B
+Text HLabel 9050 2100 2    60   Input ~ 0
+PRECHARGE_CONTACTOR
+Text HLabel 9050 2300 2    60   Input ~ 0
+MAIN_CONTACTOR
 $EndSCHEMATC

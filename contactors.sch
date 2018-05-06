@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 18
+Sheet 16 18
 Title ""
 Date ""
 Rev ""
@@ -47,12 +47,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2150 1300 0    60   Input ~ 0
-KTY+
-Text HLabel 2150 1450 0    60   Input ~ 0
-KTY-
-Text HLabel 3150 1350 2    60   Input ~ 0
-OUT
-Text Notes 1850 1050 0    60   ~ 0
-TODO(willjschmitt): Implement amplifier.
+$Sheet
+S 5600 3550 550  200 
+U 5AFF30F9
+F0 "precharge_contactor" 60
+F1 "relay.sch" 60
+F2 "IN" I L 5600 3650 60 
+$EndSheet
+Text HLabel 5350 3650 0    60   Input ~ 0
+PRECHARGE
+Text HLabel 5350 4150 0    60   Input ~ 0
+MAIN_CONTACTOR
+Wire Wire Line
+	5600 3650 5350 3650
+$Sheet
+S 5600 4050 550  200 
+U 5AFF3733
+F0 "main_contactor" 60
+F1 "relay.sch" 60
+F2 "IN" I L 5600 4150 60 
+$EndSheet
+Wire Wire Line
+	5600 4150 5350 4150
+Text Notes 4550 3300 0    60   ~ 0
+TODO(willjschmitt): Consider adding interlock protection between contactors.
+Text Notes 4700 4750 0    60   ~ 0
+TODO(willjschmitt): Add fault lockout.
 $EndSCHEMATC
