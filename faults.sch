@@ -181,4 +181,18 @@ Wire Wire Line
 	7400 2850 7400 2950
 Wire Wire Line
 	7400 2950 7550 2950
+Text HLabel 8950 2200 2    60   Input ~ 0
+!FAULT
+Wire Wire Line
+	8950 2200 8750 2200
+Wire Wire Line
+	7350 1900 7350 2250
+Wire Wire Line
+	7350 2250 7550 2250
+Connection ~ 7350 1900
+Wire Wire Line
+	7550 2150 7400 2150
+Wire Wire Line
+	7400 2150 7400 2000
+Connection ~ 7400 2000
 $EndSCHEMATC
