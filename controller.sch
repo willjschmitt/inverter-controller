@@ -529,4 +529,8 @@ Connection ~ 3650 3650
 Wire Wire Line
 	1500 1950 1350 1950
 Connection ~ 1350 1950
+Wire Wire Line
+	9800 3350 9250 3350
+Wire Wire Line
+	9800 3450 9250 3450
 $EndSCHEMATC
