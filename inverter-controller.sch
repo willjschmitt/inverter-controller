@@ -256,7 +256,7 @@ Wire Wire Line
 $Sheet
 S 3450 2850 550  300 
 U 5AF6F00C
-F0 "kty84_amplifier" 60
+F0 "kty84_amplifier_1" 60
 F1 "kty84_amplifier.sch" 60
 F2 "KTY+" I L 3450 2950 60 
 F3 "KTY-" I L 3450 3050 60 
@@ -265,7 +265,7 @@ $EndSheet
 $Sheet
 S 3450 3450 550  300 
 U 5AF71A27
-F0 "kty84_amplifier" 60
+F0 "kty84_amplifier_2" 60
 F1 "kty84_amplifier.sch" 60
 F2 "KTY+" I L 3450 3650 60 
 F3 "KTY-" I L 3450 3550 60 
